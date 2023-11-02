@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz Application</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz App</h1>
+        <div class="progress">
+            <p>Question <span id="question-number">1</span> of <span id="total-questions">0</span></p>
+        </div>
+        <div class="question-container">
+            <p class="question-text"></p>
+            <div class="options-container"></div>
+        </div>
+        <div class="controls">
+            <button id="next-button" disabled>Next</button>
+        </div>
+        <div class="result-container">
+            <p>Your score: <span id="score">0</span></p>
+            <p class="result-message"></p>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
