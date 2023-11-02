@@ -14,8 +14,25 @@ You can see the application live here: https://ganesh143u.github.io/Dynamic_quiz
 
 # Usage
 1) Clone the repository or download the source code.
-2) Open index.html in your web browser.
+2) Open 'index.html' in your web browser.
 3) Start taking the quiz! Answer the questions and click "Next" to proceed. Your score will be displayed at the end.
 
 # Getting Started
  If you want to customize or extend this application, here are the basic steps to get started:
+1) Clone the Repository
+   git@github.com:ganesh143u/Dynamic_quiz_application.git
+2) Open the project in your preferred code editor.
+3) Customize the quiz questions in the quizData array within the quiz.js file.
+4) Modify the styles in the styles.css file to match your design preferences.
+5) Test your changes by opening index.html in a web browser.
+
+# File Structure
+1) 'index.html': The main HTML file for the quiz application.
+2) 'styles.css': CSS styles for the application.
+3) 'quiz.js': JavaScript code for quiz logic and functionality.
+
+# Contributing
+ Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or create a pull request. Please follow the contribution guidelines.
+
+# License
+ This project is licensed under the MIT License. You are free to use, modify, and distribute this software as long as the original copyright notice and license are included.
